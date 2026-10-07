@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/psp/zettai-zetsumei-toshi-3)**.
+
 Traducción al **español de España** de *Zettai Zetsumei Toshi 3: Kowareyuku Machi to Kanojo no Uta*
 (絶体絶命都市3 ─壊れゆく街と彼女の歌─, PSP, Irem, 2009), la tercera entrega de la saga conocida en
 Occidente como *Disaster Report*. Nunca salió de Japón.
