@@ -13,7 +13,7 @@ el juego. Necesitas tu propia copia para aplicarlo.
 
 ## Estado
 
-Última versión: **[v1.0](../../releases/tag/v1.0)**.
+Última versión: **[v1.1](../../releases/tag/v1.1)**.
 
 | Parte | Estado |
 |---|---|
@@ -22,10 +22,11 @@ el juego. Necesitas tu propia copia para aplicarlo.
 | Mensajes del ejecutable | Resultados de usar/equipar/tirar objetos, guardado y estadísticas |
 | Caracteres españoles | **á é í ó ú ü ñ Á É Í Ó Ú Ü Ñ ¡ ¿ « »** añadidos a la fuente del juego |
 | Fuente de ancho variable | Sí: el texto latino ya no ocupa una casilla japonesa por letra |
+| Vídeos | **Texto en castellano dentro de los vídeos**: narración de la apertura, mensajes y cartas de los 15 epílogos, y letras de las canciones de los conciertos y de los créditos |
 | Correcciones del juego original | Bloqueo al recargar partida en el Hotel Hi-Urban y final del helicóptero que no se contaba |
 | Revisión durante una partida | **Parcial** (ver abajo) |
 
-Los vídeos (con letras de canciones y créditos) y el logotipo se quedan como en el original.
+Los nombres de los créditos (ya en letras latinas), el estribillo en inglés de «Remember» y el logotipo se quedan como en el original.
 
 ### Comprobaciones y trabajo pendiente
 
@@ -41,6 +42,9 @@ Se ha comprobado en emulador (PPSSPP) con la imagen exacta que genera este parch
 - La llegada al túnel, el menú de pausa (inventario, crear, información, sistema, estado, opciones),
   descripciones de objetos y mensajes como «Ya está equipado.».
 - Instalación de datos en la tarjeta de memoria: los datos instalados coinciden con los del disco traducido.
+- Vídeos: la apertura dentro del juego; un epílogo y un concierto, colocados en el vídeo del título para
+  poder verlos sin llegar al final. Del resto se han revisado en el ordenador muestras
+  de cada bloque de texto.
 
 **No se ha jugado de principio a fin.** El resto del guion se ha revisado con herramientas y lectura,
 no en pantalla. Las dos correcciones de errores se han verificado sobre el código del juego, pero no
@@ -71,8 +75,8 @@ jugando hasta esos puntos. Si encuentras una errata, un texto cortado o algo que
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases) o xdeltaUI.
    - **Linux / macOS**: `xdelta3 -d -s "juego original.iso" parche.xdelta "ZZT3 (ES).iso"`
-5. Para **v1.0**, comprueba que la ISO resultante mide **1.791.594.496 bytes** y tiene MD5
-   **`ae9779d77e2f712a271ed5d2444c3fbe`**.
+5. Para **v1.1**, comprueba que la ISO resultante mide **1.791.594.496 bytes** y tiene MD5
+   **`75042d7084ea01d35a1abdcd3583a0d5`**.
 6. Juega en **PPSSPP** (versión reciente), en una **PSP con firmware personalizado** o en **PS Vita con
    Adrenaline**. El parche lleva el ejecutable sin cifrar, como es habitual en las traducciones de PSP.
 
@@ -88,6 +92,12 @@ jugando hasta esos puntos. Si encuentras una errata, un texto cortado o algo que
   corregido en el ejecutable.
 
 ## Cambios
+
+### v1.1 — 9 de octubre de 2026
+
+- Los vídeos ya tienen el texto en castellano: la narración de la apertura, los mensajes y cartas de los
+  epílogos y las letras de las canciones de los conciertos y de los créditos. El japonés se ha borrado
+  del vídeo y el castellano aparece en su lugar, con los mismos fundidos.
 
 ### v1.0 — 5 de octubre de 2026
 
